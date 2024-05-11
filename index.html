@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        margin-left: 32%;
+        background-color: aqua;
+        padding: 50px 50px;
+        display: inline-block;
+        align-items: center;
+      }
+      .main1 {
+        border: 0.2px solid gray;
+        width: 450px;
+        align-items: center;
+        background-color: white;
+      }
+      .imp {
+        color: red;
+      }
+      div {
+        padding: 15px 50px;
+      }
+      h1 {
+        text-align: center;
+        color: darkblue;
+        font-size: 30px;
+      }
+      label {
+        padding: 10px;
+      }
+      .btn {
+        width: 100%;
+        font-size: 20px;
+        background-color: darkblue;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main1">
+        <div>
+          <h1>Software Request</h1>
+        </div>
+        <div>
+          <label for="name">Name<span class="imp">*</span></label
+          ><br />
+          <input type="text" name="" id="name" />
+        </div>
+        <div>
+          <label for="id">Employee ID<span class="imp">*</span></label
+          ><br />
+          <input type="text" name="" id="id" />
+        </div>
+        <div>
+          <label for="email">Email<span class="imp">*</span></label
+          ><br />
+          <input type="text" name="" id="email" />
+        </div>
+        <div>
+          <label for="email"
+            >Mobile No / Extn No<span class="imp">*</span></label
+          ><br />
+          <input type="text" name="" id="email" />
+        </div>
+        <div>
+          <label for="software"
+            >Which Software do you require?<span class="imp">*</span></label
+          ><br />
+          <input type="checkbox" name="Software A" id="software" />
+          <label>Software A</label><br />
+          <input type="checkbox" name="Software A" id="software" />
+          <label>Software B</label><br />
+          <input type="checkbox" name="Software A" id="software" />
+          <label>Software C</label><br />
+        </div>
+        <div>
+          <label for="software"
+            >How urgently do you need it?<span class="imp">*</span></label
+          ><br />
+          <input type="checkbox" name="Software A" id="software" />
+          <label>As soon as possible</label><br />
+          <input type="checkbox" name="Software A" id="software" />
+          <label>Within 2 - 3 weeks</label><br />
+          <input type="checkbox" name="Software A" id="software" />
+          <label>I'm in no hurry</label><br />
+        </div>
+        <div>
+          <input class="btn" type="button" value="Request" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
